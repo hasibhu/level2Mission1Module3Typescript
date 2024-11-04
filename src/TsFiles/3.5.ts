@@ -17,20 +17,29 @@ class BnakAccount  {
     }
 
 
-    addDeposit(amount: number) {
+    public addDeposit(amount: number) {
         return this._balance += amount;
     };
 
-    withdrawDeposit(amount: number) {
+    public withdrawDeposit(amount: number) {
         return this._balance -= amount;
     };
     
 
-    currentBalance() {
+    public currentBalance() {
         return this._balance;
     }
 
 };
+
+
+// class StudentAccount extends BnakAccount{
+//     test() {
+//         this.
+//     }
+// }
+
+
 
 const poorAccount = new BnakAccount(123, 'Anik', 500)
 
