@@ -3,7 +3,8 @@ import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 
 
-import './TsFiles/3.8'
+import './TsFiles/3.4'
+// import './TsFiles/solution8'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
